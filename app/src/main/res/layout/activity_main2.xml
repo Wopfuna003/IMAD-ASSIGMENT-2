@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dog"
+    android:backgroundTint="@color/material_dynamic_neutral70"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/feed_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/carter_one"
+        android:text="Feed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clean_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="@font/carter_one"
+        android:text="Clean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/play_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#C4D612"
+        android:fontFamily="@font/carter_one"
+        android:text="Play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="148dp"
+        android:backgroundTintMode="multiply"
+        android:text="Start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/hungry_edit_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Feed"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <EditText
+        android:id="@+id/clean_edit_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Clean"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Play"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <ImageView
+        android:id="@+id/pet_image"
+        android:layout_width="105dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/feed_Btn"
+        app:srcCompat="@drawable/dog"
+        tools:layout_editor_absoluteX="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="95dp"
+        android:layout_height="135dp"
+        android:scrollbarSize="@dimen/material_emphasis_disabled"
+        app:srcCompat="@drawable/dog"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dog"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
